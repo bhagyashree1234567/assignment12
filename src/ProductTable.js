@@ -14,7 +14,7 @@ class ProductTable extends Component {
         let products = this.props.products;
         return (
             <div>
-                <table className="table table-striped table-dark table-bordered">
+                <table className="table table-striped">
                     <thead className="thead-dark">
                         <tr>
                             <th>Name</th>

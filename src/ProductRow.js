@@ -16,7 +16,7 @@ class ProductRow extends Component {
                 <td>{category}</td>
                 <td>{price}</td>
                 <td>
-                    <button className="btn btn-warning" type="button" onClick={this.destroy}>Delete</button>
+                    <button className="btn btn-info" type="button" onClick={this.destroy}>Delete</button>
                 </td>
             </tr>
         )
